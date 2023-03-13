@@ -1,6 +1,8 @@
 # Project Overview
 
-Gallery of Horns is our first project utilizing REACT and is our assignment for Lab 01 of the CodeFellows 301 Course. I generated all the files using create-react-app in my terminal and then imported them into GitHub. After creating a branch to do my work on, I added a header, main and footer to my App component. Inside of the main component, I added two HornedBeast components that each pass a title, image URL, and description.
+Gallery of Horns is our first project utilizing REACT and the follwoing is a description of our assignment for Lab 01 of the CodeFellows 301 Course.
+
+Lab 01: I generated all the files using create-react-app in my terminal and then imported them into GitHub. After creating a branch to do my work on, I added a header, main and footer to my App component. Inside of the main component, I added two HornedBeast components that each pass a title, image URL, and description.
 
 ## Getting Started with Create React App
 
