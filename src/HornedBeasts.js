@@ -1,4 +1,6 @@
 import React from 'react';
+import './HornedBeasts.css';
+
 
 class HornedBeasts extends React.Component {
   constructor(props) {
@@ -19,12 +21,13 @@ class HornedBeasts extends React.Component {
 
   render() {
     return (
-      <>
+      <article>
       <h2>{this.props.title}</h2>
-      <p onClick={this.handleFavorite}>♥️ {this.state.favorite} Favorites</p>
+      <p>♥️ {this.state.favorite} Favorites</p>
+      <button onClick={this.handleFavorite}>Love It!</button>
       <img src={this.props.imageUrl} alt={this.props.description} title={this.props.title}/>
       <p>{this.props.description}</p>
-      </>
+      </article>
     )
   }
 }
