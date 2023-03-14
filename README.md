@@ -1,8 +1,10 @@
 # Project Overview
 
-Gallery of Horns is our first project utilizing REACT and the follwoing is a description of our assignment for Lab 01 of the CodeFellows 301 Course.
+Gallery of Horns is our first project utilizing REACT and the follwoing is a description of our assignment for various lab exercises of the CodeFellows 301 Course.
 
 Lab 01: I generated all the files using create-react-app in my terminal and then imported them into GitHub. After creating a branch to do my work on, I added a header, main and footer to my App component. Inside of the main component, I added two HornedBeast components that each pass a title, image URL, and description.
+
+Lab 02: I added a data.json file which contained a list of 20 horned beasts in the form of an array filled with individual objects. This allowed me to use the .map method to individually display each horned beast, along with thier respective image, titles and descriptions. Then I utilized React-Bootstrap to put each horned beast on it's own card, and on each card there is a button. The button allows a user to click on the button, and then using state I displayed the number of clicks on each individual button.
 
 ## Getting Started with Create React App
 
