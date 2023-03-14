@@ -8,7 +8,7 @@ class Main extends React.Component {
     return (
       <main>
         {data.map((horns, index) => {
-          return <HornedBeasts title={horns.title} imageUrl= {horns.imageUrl} key={index}/>
+          return <HornedBeasts title={horns.title} imageUrl= {horns.imageUrl} description={horns.description} key={index}/>
         })}
       </main>
 
