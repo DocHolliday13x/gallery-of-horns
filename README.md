@@ -28,7 +28,7 @@ Gallery of Horns is our first project utilizing REACT and the follwoing is a des
 
 * Number and Name of Feature: Display a Modal
 * Estimated Time to Completion: 5 hours
-* Start Time:
+* Start Time: 1215
 * Finish Time:
 * Actual Time to Completion:
 
