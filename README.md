@@ -4,7 +4,27 @@ Gallery of Horns is our first project utilizing REACT and the follwoing is a des
 
 Lab 01: I generated all the files using create-react-app in my terminal and then imported them into GitHub. After creating a branch to do my work on, I added a header, main and footer to my App component. Inside of the main component, I added two HornedBeast components that each pass a title, image URL, and description.
 
+* Number and Name of Feature:
+* Estimated Time to Completion:
+* Start Time:
+* Finish Time:
+* Actual Time to Completion:
+
 Lab 02: I added a data.json file which contained a list of 20 horned beasts in the form of an array filled with individual objects. This allowed me to use the .map method to individually display each horned beast, along with thier respective image, titles and descriptions. Then I utilized React-Bootstrap to put each horned beast on it's own card, and on each card there is a button. The button allows a user to click on the button, and then using state I displayed the number of clicks on each individual button.
+
+* Number and Name of Feature:
+* Estimated Time to Completion:
+* Start Time:
+* Finish Time:
+* Actual Time to Completion:
+
+Lab 03: Working with state using props. The user wants to be able to view the details of an image, then when they click on the image, the image will render larger on the screen with the description displayed.
+
+* Number and Name of Feature:
+* Estimated Time to Completion:
+* Start Time:
+* Finish Time:
+* Actual Time to Completion:
 
 ## Getting Started with Create React App
 
