@@ -24,7 +24,7 @@ Gallery of Horns is our first project utilizing REACT and the follwoing is a des
 
 ## Lab 03
 
-  Working with state using props. The user wants to be able to view the details of an image, then when they click on the image, the image will render larger on the screen with the description displayed.
+  Working with state using props, as well as creating a modal. The user wants to be able to view the details of an image, then when they click on the image, the image will render larger on the screen with the description displayed, which will be achieved with the modal.
 
 * Number and Name of Feature: Display a Modal
 * Estimated Time to Completion: 5 hours
