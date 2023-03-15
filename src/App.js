@@ -1,6 +1,6 @@
 //  REBUILD AS A CLASS COMPONENT
 
-// FIRST - IMPORTS
+// STEP 1 - IMPORTS
 import React from 'react';
 import Header from './Header';
 import Main from './Main';
@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import SelectedBeast from './SelectedBeast';
 import Modal from 'react-bootstrap/Modal'
 
-// SECOND - CREATE THE CLASS -- will always have a render method
+// STEP 2 - CREATE THE CLASS -- will always have a render method
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -58,7 +58,7 @@ class App extends React.Component {
   }
 }
 
-// THIRD - EXPORT THE CLASS FOR OTHER FILES TO IMPORT
+// STEP 3 - EXPORT THE CLASS FOR OTHER FILES TO IMPORT
 export default App;
 
 //TODO:

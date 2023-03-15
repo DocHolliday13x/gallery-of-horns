@@ -1,6 +1,8 @@
+// STEP 1 - IMPORTS
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 
+// STEP 2 - CREATE CLASS
 class SelectedBeast extends React.Component {
   handleClickedBeast = () => {
     this.props.handleOpenModal()
@@ -26,4 +28,5 @@ class SelectedBeast extends React.Component {
   }
 }
 
+// STEP 3 - EXPORT
 export default SelectedBeast;
