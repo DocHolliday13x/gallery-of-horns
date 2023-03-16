@@ -29,8 +29,18 @@ Gallery of Horns is our first project utilizing REACT and the follwoing is a des
 * Number and Name of Feature: Display a Modal
 * Estimated Time to Completion: 5 hours
 * Start Time: 1215
-* Finish Time:
-* Actual Time to Completion:
+* Finish Time:1700
+* Actual Time to Completion: 4 hours
+
+## Lab 04
+
+Working with REACT forms. I had to import a REACT form, then using the form component I created a dropdown menu that allows the user to filter the displayed beasts by their number of horns, from 1, 2, 3 and 100. All of the new code was done inside of my App.js file, where I added the import for the REACT form, created a handler function as well as the form itself.
+
+* Number and Name of Feature: REACT Forms
+* Estimated Time to Completion: 2 hours
+* Start Time: 1215
+* Finish Time: 1315
+* Actual Time to Completion: Just over 1 hour
 
 ### Resources
 
