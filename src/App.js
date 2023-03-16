@@ -8,7 +8,8 @@ import Footer from './Footer';
 import data from './data/data.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SelectedBeast from './SelectedBeast';
-import Modal from 'react-bootstrap/Modal'
+import Modal from 'react-bootstrap/Modal';
+import Form from 'react-bootstrap/Form';
 
 // STEP 2 - CREATE THE CLASS -- will always have a render method
 class App extends React.Component {
@@ -35,6 +36,29 @@ class App extends React.Component {
       showModal: false
     })
   };
+
+  handleSelect = ((event) => {
+    let selected = event.target.value;
+
+    if (selected === '1') {
+      let newData = data.filter(e => e.horns === 1);
+      this.setState({
+        sortedData: newData
+      })
+    } else if (selected === '2') {
+      let newData = data.filter(e => e.horns === 2);
+      this.setState({
+
+        sortedData: newData
+      })
+    } else if (selected === '3') {
+      let newData = data.filter(e => e.horns === 3);
+      this.setState({
+
+        sortedData: newData
+      })
+    }
+  })
 
   render() {
     return (
