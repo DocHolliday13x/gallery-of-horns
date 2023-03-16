@@ -57,8 +57,8 @@ class App extends React.Component {
 
         data: newData
       })
-    } else if (selected === '> 3') {
-      let newData = data.filter(e => e.horns > 3);
+    } else if (selected === '100') {
+      let newData = data.filter(e => e.horns === 100);
       this.setState({
 
         data: newData
@@ -77,13 +77,13 @@ class App extends React.Component {
               <option value='1'>1 Horn</option>
               <option value='2'>2 Horns</option>
               <option value='3'>3 Horns</option>
-              <option value='> 3'>3+ Horns</option>
+              <option value='100'>100 Horns</option>
             </Form.Select>
           </Form.Group>
         </Form>
 
         <Main
-          data={data}
+          data={this.state.data}
           handleOpenModal={this.handleOpenModal}
         />
 
