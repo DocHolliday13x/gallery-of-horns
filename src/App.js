@@ -57,6 +57,12 @@ class App extends React.Component {
 
         data: newData
       })
+    } else if (selected === '> 3') {
+      let newData = data.filter(e => e.horns > 3);
+      this.setState({
+
+        data: newData
+      })
     }
   })
 
@@ -68,13 +74,14 @@ class App extends React.Component {
           <Form.Group>
             <Form.Select name='select' onChange={this.handleSelect}>
               <option>Filter Menu</option>
-              <option value='1'>1</option>
-              <option value='2'>2</option>
-              <option value='3'>3</option>
+              <option value='1'>1 Horn</option>
+              <option value='2'>2 Horns</option>
+              <option value='3'>3 Horns</option>
+              <option value='> 3'>3+ Horns</option>
             </Form.Select>
           </Form.Group>
         </Form>
-        
+
         <Main
           data={data}
           handleOpenModal={this.handleOpenModal}
