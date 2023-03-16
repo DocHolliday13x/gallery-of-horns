@@ -43,19 +43,19 @@ class App extends React.Component {
     if (selected === '1') {
       let newData = data.filter(e => e.horns === 1);
       this.setState({
-        sortedData: newData
+        data: newData
       })
     } else if (selected === '2') {
       let newData = data.filter(e => e.horns === 2);
       this.setState({
 
-        sortedData: newData
+        data: newData
       })
     } else if (selected === '3') {
       let newData = data.filter(e => e.horns === 3);
       this.setState({
 
-        sortedData: newData
+        data: newData
       })
     }
   })
@@ -64,6 +64,17 @@ class App extends React.Component {
     return (
       <>
         <Header />
+        <Form>
+          <Form.Group>
+            <Form.Select name='select' onChange={this.handleSelect}>
+              <option>Filter Menu</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+            </Form.Select>
+          </Form.Group>
+        </Form>
+        
         <Main
           data={data}
           handleOpenModal={this.handleOpenModal}
